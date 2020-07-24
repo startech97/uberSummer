@@ -2,403 +2,475 @@ $blue: #1ca8c3
 $red: #ff5656
 /*при наведении будет работать ховер и чтобы назначить объкту бэкграунд колор а не имэдж сначала обнуляем имедж а потом назначаем бэк колор*/
 =btn_hover   
-  &:hover
-    background-image: none 
-    background-color: $blue
-  
+	&:hover
+		background-image: none 
+		background-color: $blue
+	
 html
-  font-family: 'Roboto', sans-serif
+	font-family: 'Roboto', sans-serif
 
 
 header
-  position: relative
+	position: relative
 
 nav
-  height: 50px
-  background-color: #212121
-  z-index: 2
-  width: 100%
+	height: 50px
+	background-color: #212121
+	z-index: 2
+	width: 100%
 
 .menu
-  display: flex
-  justify-content: space-between
-  padding: 13px 70px
-  margin: 0
-  list-style-type: none
+	display: flex
+	justify-content: space-between
+	padding: 13px 70px
+	margin: 0
+	list-style-type: none
 
-  .menu_link
-    color: #ffffff
-    font-size: 15px
-    font-weight: 300
+	.menu_link
+		color: #ffffff
+		font-size: 15px
+		font-weight: 300
 
-  .menu_item
-    padding-right: 28px
-    border-right: 2px dotted black
+	.menu_item
+		padding-right: 28px
+		border-right: 2px dotted black
 
 .subheader
-  position: absolute
-  width: 100%
-  height: 84px
-  background-color: rgba(0, 0, 0, 0.6)
-  &_logo
-    display: block
-    max-width: 100%
-    margin-top: 16px
-  &_official
-    margin-top: 6px
-    opacity: 0.5
-    color: #ffffff
-    font-size: 13px
-    font-weight: 400
-  &_call
-    margin-top: 19px
-    color: #ffffff
-    font-size: 12px
-    font-weight: 300
-    text-align: right
-  &_phone
-    display: block
-    margin-top: 6px
-    color: #ffffff
-    font-size: 22px
-    font-weight: 400
-    text-transform: uppercase
-    text-align: right
-    line-height: 12px
-  &_btn
-    display: block
-    margin-top: 19px
-    width: 172px
-    height: 46px
-    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
-    border: none
-    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
-    color: #ffffff
-    font-size: 14px
-    font-weight: 400
-    text-transform: uppercase
-    text-align: center
-    border-radius: 4px
-    +btn_hover
+	position: absolute
+	width: 100%
+	height: 84px
+	background-color: rgba(0, 0, 0, 0.6)
+	&_logo
+		display: block
+		max-width: 100%
+		margin-top: 16px
+	&_official
+		margin-top: 6px
+		opacity: 0.5
+		color: #ffffff
+		font-size: 13px
+		font-weight: 400
+	&_call
+		margin-top: 19px
+		color: #ffffff
+		font-size: 12px
+		font-weight: 300
+		text-align: right
+	&_phone
+		display: block
+		margin-top: 6px
+		color: #ffffff
+		font-size: 22px
+		font-weight: 400
+		text-transform: uppercase
+		text-align: right
+		line-height: 12px
+	&_btn
+		display: block
+		margin-top: 19px
+		width: 172px
+		height: 46px
+		box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12)
+		border: none
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		color: #ffffff
+		font-size: 14px
+		font-weight: 400
+		text-transform: uppercase
+		text-align: center
+		border-radius: 4px
+		+btn_hover
 
 .promo
-  min-height: 800px
-  padding: 150px 0 135px 0
-  background: url('../img/backgroundTop.png') center (center / cover) no-repeat
-  &_header
-    color: #ffffff
-    font-family: Roboto
-    font-weight: 700
-    text-transform: uppercase
-    font-size: 60px
-    line-height: 60px
-    margin: 0
-    text-align: center
-  &_subheader
-    color: #ffffff
-    font-family: Roboto
-    font-weight: 700
-    text-transform: uppercase
-    font-size: 36px
-    line-height: 36px
-    margin: 0
-    margin-top: 22px
-    text-align: center
-  &_descr
-    color: #ffffff
-    font-size: 18px
-    font-weight: 400
-    line-height: 24px
-    text-align: center
-    margin-top: 23px
-  &_btn
-    display: block
-    margin: 0 auto
-    margin-top: 118px
-    width: 259px
-    height: 63px
-    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
-    border: none
-    background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
-    color: #ffffff
-    font-size: 18px
-    font-weight: 400
-    text-transform: uppercase
-    border-radius: 4px
-    +btn_hover
+	min-height: 800px
+	padding: 150px 0 135px 0
+	background: url('../img/backgroundTop.png') center (center / cover) no-repeat
+	&_header
+		color: #ffffff
+		font-family: Roboto
+		font-weight: 700
+		text-transform: uppercase
+		font-size: 60px
+		line-height: 60px
+		margin: 0
+		text-align: center
+	&_subheader
+		color: #ffffff
+		font-family: Roboto
+		font-weight: 700
+		text-transform: uppercase
+		font-size: 36px
+		line-height: 36px
+		margin: 0
+		margin-top: 22px
+		text-align: center
+	&_descr
+		color: #ffffff
+		font-size: 18px
+		font-weight: 400
+		line-height: 24px
+		text-align: center
+		margin-top: 23px
+	&_btn
+		display: block
+		margin: 0 auto
+		margin-top: 118px
+		width: 259px
+		height: 63px
+		box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12)
+		border: none
+		background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%)
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21)
+		color: #ffffff
+		font-size: 18px
+		font-weight: 400
+		text-transform: uppercase
+		border-radius: 4px
+		+btn_hover
 
 .reasons
-  min-height: 900px
-  background-color: white
+	min-height: 900px
+	background-color: white
 
 .btn
-  display: block
-  margin: 0 auto
-  margin-top: 71px
-  width: 112px
-  height: 24px
-  background-color: #000000
-  color: #ffffff
-  font-size: 11px
-  font-weight: 400
-  line-height: 23px
-  text-transform: uppercase
-  text-align: center
+	display: block
+	margin: 0 auto
+	margin-top: 71px
+	width: 112px
+	height: 24px
+	background-color: #000000
+	color: #ffffff
+	font-size: 11px
+	font-weight: 400
+	line-height: 23px
+	text-transform: uppercase
+	text-align: center
 
 .title
-  margin-top: 38px
-  text-align: center
-  color: #222222
-  font-size: 38px
-  font-weight: 700
-  text-transform: uppercase
+	margin-top: 38px
+	text-align: center
+	color: #222222
+	font-size: 38px
+	font-weight: 700
+	text-transform: uppercase
 
 .subtitle
-  margin-top: 19px
-  font-size: 17px
-  font-weight: 400
-  color: #222222
-  text-align: center
+	margin-top: 19px
+	font-size: 17px
+	font-weight: 400
+	color: #222222
+	text-align: center
 
 
 .block
-  display: flex
-  align-items: center
-  width: 480px
-  min-height: 193px
-  margin: 0
-  margin-top: 40px
+	display: flex
+	align-items: center
+	width: 480px
+	min-height: 193px
+	margin: 0
+	margin-top: 40px
 
-  .round_block
-    margin: 0 26px 0 0
+	.round_block
+		margin: 0 26px 0 0
 
-  .roundBox
-    display: flex
-    justify-content: center
-    align-items: center
-    width: 113px
-    height: 113px
-    background-color: #1eacc7
-    border-radius: 100%
+	.roundBox
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 113px
+		height: 113px
+		background-color: #1eacc7
+		border-radius: 100%
 
-  .description
-    .titleR
-      color: #202020
-      font-family: Roboto
-      font-size: 15px
-      font-weight: 300
-      color: #1eacc7
-      font-size: 17px
-      font-weight: 400
+	.description
+		.titleR
+			color: #202020
+			font-family: Roboto
+			font-size: 15px
+			font-weight: 300
+			color: #1eacc7
+			font-size: 17px
+			font-weight: 400
 
-    .textR
-      font-weight: 300
+		.textR
+			font-weight: 300
 
 .mobile 
-  min-height: 864px
-  padding: 48px 0 79px 0
-  background: url('../img/middleBackground.png') center (center/cover) no-repeat
-  .row 
-    margin-top: 32px
-    
-  &_item 
-    position: relative
-    width: 320px
-    height: 280px
-    margin: 0 auto
-    margin-bottom: 19px
-    padding-top: 92px
-    &_1 //я каждого блока назначили доп класс с номером для придания каждому своего бэка
-      background: url('../img/appbackgound1.png') center (center/cover) no-repeat
-    &_2
-      background: url('../img/appbackgound2.png') center (center/cover) no-repeat
-    &_3
-      background: url('../img/appbackgound3.png') center (center/cover) no-repeat
-    &_4
-      background: url('../img/appbackgound4.png') center (center/cover) no-repeat
-    &_5
-      background: url('../img/appbackgound5.png') center (center/cover) no-repeat
-    &_6
-      background: url('../img/appbackgound6.png') center (center/cover) no-repeat
-    &_subtitle
-      color: #ffffff
-      font-size: 24px
-      font-weight: 400
-      line-height: 31px
-      text-transform: uppercase
-      text-align: center
-    &_plus 
-      display: flex
-      justify-content: center
-      align-items: center
-      position: absolute
-      bottom: 35px
-      left: 50%
-      transform: translateX(-50%) // мы при абсолютномп позиционировании переместили на 50% и при помощи транслейт отодвт=инули элемент на половину своей ширины
-      width: 26px
-      height: 26px
-      background-color: #000000
-      margin: 0 auto
-      border-radius: 100%
-      padding: 3px
-      cursor: pointer
-      &:before        
-        content: ''           //для позиционирования таких объеков используем position absolute
-        display: block
-        width: 14px
-        height: 2px
-        background-color: $blue
-      &:after 
-        position: absolute
-        left: 50%               //выровнять по центру 2 шага
-        transform: translateX(-50%)//выровнять абсолютно спозиционированный объкт в 2 шага
-        content: ''
-        display: block
-        width: 2px
-        height: 14px
-        background-color: $blue
-        transition: 0.2s all
-      &:hover
-        &:before, &:after
-          background-color: $red
-          
+	min-height: 864px
+	padding: 48px 0 79px 0
+	background: url('../img/middleBackground.png') center (center/cover) no-repeat
+	.row 
+		margin-top: 32px
+		
+	&_item 
+		position: relative
+		width: 320px
+		height: 280px
+		margin: 0 auto
+		margin-bottom: 19px
+		padding-top: 92px
+		&_1 //я каждого блока назначили доп класс с номером для придания каждому своего бэка
+			background: url('../img/appbackgound1.png') center (center/cover) no-repeat
+		&_2
+			background: url('../img/appbackgound2.png') center (center/cover) no-repeat
+		&_3
+			background: url('../img/appbackgound3.png') center (center/cover) no-repeat
+		&_4
+			background: url('../img/appbackgound4.png') center (center/cover) no-repeat
+		&_5
+			background: url('../img/appbackgound5.png') center (center/cover) no-repeat
+		&_6
+			background: url('../img/appbackgound6.png') center (center/cover) no-repeat
+		&_subtitle
+			color: #ffffff
+			font-size: 24px
+			font-weight: 400
+			line-height: 31px
+			text-transform: uppercase
+			text-align: center
+		&_plus 
+			display: flex
+			justify-content: center
+			align-items: center
+			position: absolute
+			bottom: 35px
+			left: 50%
+			transform: translateX(-50%) // мы при абсолютномп позиционировании переместили на 50% и при помощи транслейт отодвт=инули элемент на половину своей ширины
+			width: 26px
+			height: 26px
+			background-color: #000000
+			margin: 0 auto
+			border-radius: 100%
+			padding: 3px
+			cursor: pointer
+			&:before        
+				content: ''           //для позиционирования таких объеков используем position absolute
+				display: block
+				width: 14px
+				height: 2px
+				background-color: $blue
+			&:after 
+				position: absolute
+				left: 50%               //выровнять по центру 2 шага
+				transform: translateX(-50%)//выровнять абсолютно спозиционированный объкт в 2 шага
+				content: ''
+				display: block
+				width: 2px
+				height: 14px
+				background-color: $blue
+				transition: 0.2s all
+			&:hover
+				&:before, &:after
+					background-color: $red
+					
 
 
 
 .car
-  height: 499px
-  background-color: #070716
-  padding-top: 56px
-  position: relative
+	height: 499px
+	background-color: #070716
+	padding-top: 56px
+	position: relative
 
-  
-  .btn 
-    margin-top: 0
-    color: black
-    background-color: #ffffff
-  .title
-    margin-top: 32px 
-    color: #ffffff
-  .subtitle 
-    color: #ffffff
-  &_img 
-    width: 759px
-    margin: 0 auto
-    margin-top: 56px
-    z-index: 3
+	
+	.btn 
+		margin-top: 0
+		color: black
+		background-color: #ffffff
+	.title
+		margin-top: 32px 
+		color: #ffffff
+	.subtitle 
+		color: #ffffff
+	&_img 
+		width: 759px
+		margin: 0 auto
+		margin-top: 56px
+		z-index: 3
 
 .white 
-  min-height: 397px
-  background: url('../img/bcgCar.png') center (center/cover) no-repeat
-  padding: 217px
-  &_white 
-    &_everyDay 
-      color: #222222
-      font-size: 17px
-      font-weight: 300
-      line-height: 12px
-      text-align: center
+	min-height: 397px
+	background: url('../img/bcgCar.png') center (center/cover) no-repeat
+	padding: 217px
+	&_white 
+		&_everyDay 
+			color: #222222
+			font-size: 17px
+			font-weight: 300
+			line-height: 12px
+			text-align: center
 
 
 /*псевдоклассы и псевдоэлементы
-  button 
-    &:hover 
-      сюда ставим стиль на который будем менять
-      transition: 0.5s all    плавный переход а all  это прописывание того что менять
-    &:active изменения в активнм состоянии когда нажал на элемент и держишь на нем
-      бла бла
-    &:focus например форма когда мы в нее что то вводим, когда мы нажимаем ан кнпку она в фокусе и чтобы убрать например обводку есть outline:none
-   tab меняет или убирает фокус
-    &:nth-child(2n) каждый определенный элемент застилизовать
-      color:red;   частный случай first-child
+	button 
+		&:hover 
+			сюда ставим стиль на который будем менять
+			transition: 0.5s all    плавный переход а all  это прописывание того что менять
+		&:active изменения в активнм состоянии когда нажал на элемент и держишь на нем
+			бла бла
+		&:focus например форма когда мы в нее что то вводим, когда мы нажимаем ан кнпку она в фокусе и чтобы убрать например обводку есть outline:none
+	 tab меняет или убирает фокус
+		&:nth-child(2n) каждый определенный элемент застилизовать
+			color:red;   частный случай first-child
 
-  псевдоэлементы
-    circle
-     &:before
-       content: ''    всегда создавй контент в псевдоэлементе
-       display:dlock
-        height: 100px
-        background color: black
+	псевдоэлементы
+		circle
+		 &:before
+			 content: ''    всегда создавй контент в псевдоэлементе
+			 display:dlock
+				height: 100px
+				background color: black
 
-    &:hover  при наведении выполниь то то
-      &:before
-  
-  
-  
-  
-  */
+		&:hover  при наведении выполниь то то
+			&:before
+	
+	
+	
+	
+	*/
 
 
 .require 
-  padding: 68px 0 84px 0
-  &_block 
-    margin: 33px 0
-    &_nbm //доп класс чтобы убрать боттомы у некоторых елементов
-      margin-bottom: 0
-  &_title 
-    color: #1ca8c3
-    font-size: 22px
-    font-weight: 400
-  &_list 
-    list-style-type: none
-    padding-left: 50px
-    margin-top: 22px
-    li 
-      position: relative
-      display: block
-      font-size: 17px
-      font-weight: 300
-      line-height: 24px //но лучше позиционировать абсолют
-      margin-bottom: 10px
-      &:before                //вместо картинки создаем псевдоэлемен в котором ставим бэкгроунд нашу картинку
-        content: ''  //на before flexbox не действует существует только объект к которому мы приставили псевдоэлемент
-        display: block
-        position: absolute
-        left: -32px
-        top: 3px
-        //vertical-align: middle  //для инлайн блок
-        //transform: translate(-2px , -5px) //-2 горизонталь -5вертикаль
-        width: 21px
-        height: 20px
-        background: url('../icons/completeBlue.png') center (center/cover) no-repeat
-  &_descr 
-    color: #1ca8c3
-    font-weight: 300
-  .warning  //добавили класс для стилизации красных списков
-    .require_title
-      color: $red
-    .require_list
-      li 
-        &:before
-          background: url('../icons/uncompleteRed.png') center (center/cover) no-repeat
+	padding: 68px 0 84px 0
+	&_block 
+		margin: 33px 0
+		&_nbm //доп класс чтобы убрать боттомы у некоторых елементов
+			margin-bottom: 0
+	&_title 
+		color: #1ca8c3
+		font-size: 22px
+		font-weight: 400
+	&_list 
+		list-style-type: none
+		padding-left: 50px
+		margin-top: 22px
+		li 
+			position: relative
+			display: block
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px //но лучше позиционировать абсолют
+			margin-bottom: 10px
+			&:before                //вместо картинки создаем псевдоэлемен в котором ставим бэкгроунд нашу картинку
+				content: ''  //на before flexbox не действует существует только объект к которому мы приставили псевдоэлемент
+				display: block
+				position: absolute
+				left: -32px
+				top: 3px
+				//vertical-align: middle  //для инлайн блок
+				//transform: translate(-2px , -5px) //-2 горизонталь -5вертикаль
+				width: 21px
+				height: 20px
+				background: url('../icons/completeBlue.png') center (center/cover) no-repeat
+	&_descr 
+		color: #1ca8c3
+		font-weight: 300
+	.warning  //добавили класс для стилизации красных списков
+		.require_title
+			color: $red
+		.require_list
+			li 
+				&:before
+					background: url('../icons/uncompleteRed.png') center (center/cover) no-repeat
 
 
 .map 
-  min-height: 717px
-  background: url('../img/map.png') center (center/cover) no-repeat
-  padding-top: 49px
-  .btn 
-    background-color: white
-    color: #070716
-    
-  .title
-    color: white
-  .subtitle 
-    margin-top: 20px
-    color: white
-  &_allcities
-    position: absolute
-    color: #1fbad6
-    font-size: 15px
-    font-weight: 400
-    line-height: 68px
-    text-transform: uppercase
-    text-align: center
-    
-    left: 50%
-    transform: translate(-50% , 350px)
-    
+	min-height: 717px
+	background: url('../img/map.png') center (center/cover) no-repeat
+	padding-top: 49px
+	.btn 
+		background-color: white
+		color: #070716
+		
+	.title
+		color: white
+	.subtitle 
+		margin-top: 20px
+		color: white
+	&_allcities
+		position: absolute
+		color: #1fbad6
+		font-size: 15px
+		font-weight: 400
+		line-height: 68px
+		text-transform: uppercase
+		text-align: center
+		
+		left: 50%
+		transform: translate(-50% , 350px)
+		
+footer 
+	height: 156px
+	background-color: white
+	.line 
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+		margin-top: 12px
+	.wrapperfoot
+		display: flex
+	.three
+		
+		width: 33%
+		
+		.icon_wrapper
+			height: 156px
+			display: flex
+			align-items: center
 
-  
+			.icon 
+				margin: 5px
+				width: 32px
+				height: 32px
+				background-color: #070716
+				border-radius: 100%
+				display: flex
+				justify-content: center
+				align-items: center
+				i 
+					color: white
+	.social 	
+		width: 33%
+		&_wrapper 
+			display: flex
+			justify-content: space-between
+			margin-top: 36px
+	
+			&_link 
+				color: black
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase	
+		.social_grey 
+			display: flex
+			justify-content: space-between
+			margin-top: 12px
+			a
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+	.app 
+		width: 33%
+		display: flex
+		justify-content: flex-end
+		align-items: center
+		&_link 
+			width: 100px
+			height: 30px
+			background-color: black
+			margin: 5px
+			border-radius: 6px 
+			display: flex
+			justify-content: center
+			align-items: center
+			i 
+				color: white
+			
+
+	
+		
+			
+
